@@ -4,7 +4,7 @@ testGreedy(items, 20, cmpDencity)
 
 function cmpDencity(itemA, itemB)
 {
-	const r = //здесь вам надо задать сравнение по удельной цене 
+	const r = itemA.value - itemB.value//здесь вам надо задать сравнение по удельной цене 
 	return r
 }
 
